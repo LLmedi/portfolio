@@ -1,0 +1,63 @@
+/* need to add @media to be able to resize and organize divs if window size is small */
+
+.ShowcaseContainer {
+    margin-top: 24px;
+    width: 100%;
+    height: calc(100vh - 550px);;
+    display: flex;
+    background-color: #252525;
+}
+
+.ButtonLeft, .ButtonRight {
+    width:5%;
+    height: calc(100vh - 550px);
+    min-height: 200px;
+    min-width: 25px;
+    max-width: 50px;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonLeft:hover, .ButtonRight:hover {
+    background-color: #58737f;
+    cursor: pointer;
+}
+
+.ButtonLeft:active,  .ButtonRight:active{
+    background-color: #506874;
+    transition: .1s;
+}
+
+.ButtonLeft {
+    border-radius: 5px 0 0 5px ;
+}
+
+.ButtonRight {
+    border-radius: 0 5px 5px 0 ;
+}
+
+.ProjectMid {
+    width:100%;
+    height:auto;
+    padding: 30px 20px;
+    display: flex;
+}
+
+.ProjectImage, .ProjectDescription {
+    width: 50%;
+    padding: 30px 20px;
+}
+
+.ProjectImage {
+    text-align: center;
+    aspect-ratio: 16/9;
+}
+
+.ProjectDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+

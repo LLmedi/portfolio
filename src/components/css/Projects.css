@@ -1,0 +1,20 @@
+.ProjectsContainer {
+    width: 100%;
+    height: calc(100vh - 550px);;
+    display: flex;
+    padding: 75px 0 0 0;
+    justify-content: space-between;
+}
+
+.ProjectItem {
+    text-align: center;
+}
+
+/* .Slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 1s;
+} */
